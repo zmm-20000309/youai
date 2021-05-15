@@ -1,0 +1,32 @@
+// $themeColor:red;
+// $colorlist: ('C7C7C7', 'CCCCCC', 'ffffff', 'b3b3b3', 'F7F7F7', 'FFFAFC', 'FAFAFA', '62BAB7', '9A9797', 'AAD14F', 'E7E7E7', '6F67DD', 'FEE64B',
+//     'B4B3B3', 'B0B0B0', 'EB7A68', '36B1C1', '626262', 'FE8BAF', 'B7B7B7', 'DEDEDE', 'DD7A15', 'FD8213', 'FF622C', 'FEE300', 'FF9221',
+//     '33A9F8', '9c9c9c', 'FFB90E', 'F86F55', 'C1C1C1', 'CFCFCF', 'BEBEBE', 'A9A8A8', 'E1DFDF', 'ABCF58', 'b5b5b5', '9a9898', '9E9E9E',
+//     'E1E1E1', 'F6F6F6', 'F3F3F3', 'E8E8E8', '3AB2C1', 'F8F8F8', 'f9f8f9', 'E4E4E4', 'FFB80E', 'FE2026', '59D042', 'FE9E30', '1FDEF8',
+//     'CAC8C8', 'C8C8C8', 'D81B23', 'AAD14F', 'AAD14F', 'D81B23', '7D7D7D', 'ACD148', 'FFFFFF', '3CB1BF', 'BFBEBF', 'EFEFEF', '2F2F2F',
+//     '9C9B9B', '5a5858', '3CB1BF', 'C2C2C2', 'AAAAAA', 'FC84A9', 'aaaaaa', 'DCDCDC', 'D81B23', '92C852', 'E2DFDF', 'FCC0D2', 'FFEEEE',
+//     'F5F5F5', '818181', 'E8E8E8', 'FDC1D3', '3CB3C2', 'FDBD21', 'AAAAAA', '39B2C1', 'ADADAD', '838383', 'A9C1DF', '21A9BA', 'C5C5C5',
+//     'FDF2FF', 'EEF0EF', 'FF8729', 'FE014A', 'FC9536', 'EC1F1A', 'D3C251', 'F36865', 'F8DC1F', 'EBEBEB', 'FFFF4F', 'FA0050', '9FA2A6',
+//     '686868', '969799', '000000', '989898', '646161', '989798', '494848', '848484', '464646', '333333', '999899', '777777',
+//     'D4237B', 'ABD33B', 'D4237B', '707070', '515a6e', 'FFC323', 'FFFBEC', 'F2F2F2', '5D5D5D', 'F1C151', 'A2A5A9', '3C3C3C',
+//     '919191', 'ECCB84', '74C8C0', 'FDE337', 'F0F0F0', '3F3F3F', 'FF854D', 'CECECE', 'D8D8D8', '55B2B6', 'FFBA9A',
+//     000000, 393939, 565758, 595959, 656565, 666666, 888888, 989898, 999999, 303233, 959595,
+// );
+
+// @each $i in $colorlist {
+//     .color#{$i} {
+//         color:#{'#'}#{$i} !important;
+//     }
+
+//     .bg#{$i} {
+//         background-color: #{'#'}#{$i};
+//     }
+// }
+
+// .themecolor {
+//     color: #81D8D0 !important;
+// }
+
+// .themebg {
+//     background-color: #81D8D0 !important;
+// }

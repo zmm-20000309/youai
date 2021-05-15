@@ -1,0 +1,128 @@
+// 循环
+
+@for $i from 0 through 10 {
+    .flex_item#{$i} {
+        flex: $i;
+    }
+
+    .flex_item0#{$i} {
+        flex: $i*0.1;
+    }
+
+    .opacity#{$i} {
+        opacity: $i*0.1;
+    }
+
+    .weight#{$i*100} {
+        font-weight: $i*100
+    }
+
+    .index#{$i} {
+        z-index: $i
+    }
+}
+
+@for $i from 0 through 100 {
+    .radius#{$i} {
+        border-radius: $i*1rpx !important;
+    }
+
+    .radiusR#{$i} {
+        border-top-right-radius: $i*1rpx !important;
+        border-bottom-right-radius: $i*1rpx !important;
+    }
+
+    .radiusT#{$i} {
+        border-top-right-radius: $i*1rpx !important;
+        border-top-left-radius: $i*1rpx !important;
+    }
+
+    .radiusB#{$i} {
+        border-bottom-right-radius: $i*1rpx !important;
+        border-bottom-left-radius: $i*1rpx !important;
+    }
+}
+
+@for $i from 0 through 60 {
+    .font#{$i} {
+        font-size: (1rpx*$i) !important;
+    }
+}
+
+@for $i from 0 through 100 {
+    .width#{$i}b {
+        width: percentage($i/100)
+    }
+}
+
+@for $i from 0 through 230 {
+    .p#{$i} {
+        padding: (1rpx*$i) !important;
+    }
+
+    .pt#{$i} {
+        padding-top: (1rpx*$i) !important;
+    }
+
+    .pl#{$i} {
+        padding-left: (1rpx*$i) !important;
+    }
+
+    .pr#{$i} {
+        padding-right: (1rpx*$i) !important;
+    }
+
+    .pb#{$i} {
+        padding-bottom: (1rpx*$i) !important;
+    }
+}
+
+@for $i from 0 through 700 {
+    .left#{$i} {
+        left: (1rpx*$i) !important;
+    }
+
+    .right#{$i} {
+        right: (1rpx*$i) !important;
+    }
+
+    .top#{$i} {
+        top: (1rpx*$i) !important;
+    }
+
+    .bottom#{$i} {
+        bottom: (1rpx*$i) !important;
+    }
+
+    .width#{$i} {
+        width: (1rpx*$i) !important;
+    }
+
+    .height#{$i} {
+        height: (1rpx*$i) !important;
+    }
+
+    .line#{$i} {
+        line-height: (1rpx*$i) !important;
+    }
+
+    .m#{$i} {
+        margin: (1rpx*$i) !important;
+    }
+
+    .mr#{$i} {
+        margin-right: (1rpx*$i) !important;
+    }
+
+    .ml#{$i} {
+        margin-left: (1rpx*$i) !important;
+    }
+
+    .mt#{$i} {
+        margin-top: (1rpx*$i) !important;
+    }
+
+    .mb#{$i} {
+        margin-bottom: (1rpx*$i) !important;
+    }
+}

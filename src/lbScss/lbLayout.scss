@@ -1,0 +1,113 @@
+.flex {
+    display: flex;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.column {
+    flex-direction: column
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.flex_item {
+    flex: 1;
+}
+
+.align {
+    align-items: center;
+}
+
+.flexdirect {
+  flex-direction: column;
+}
+
+.justifyAround {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.justifyCenter {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex_end {
+    justify-content: flex-end;
+}
+
+.flexdirect {
+  flex-direction: column;
+}
+
+.beten {
+  justify-content: space-around;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tr {
+    text-align: right;
+}
+
+.mauto {
+    margin: 0 auto;
+}
+
+.block {
+    display: block;
+}
+.diblock {
+    display: inline-block;
+}
+.nowrap{
+    flex-wrap: nowrap;
+}
+.baseline{
+    align-items: baseline;
+}
+.height100b{
+    height: 100% !important;
+}
+// 固定底部
+.bottomc {
+    position: fixed !important;
+    bottom: 20px;
+}
+.overflowHidden{
+    overflow: hidden;
+}
+.box {
+    box-sizing: border-box;
+}
+.weight600{
+    font-weight: 600;
+}
